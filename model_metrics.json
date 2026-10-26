@@ -1,0 +1,47 @@
+{
+  "best_model": "Gradient Boosting",
+  "results": {
+    "Ridge Regression": {
+      "R2": 0.9628,
+      "MAE_usd": 63.73,
+      "RMSE_usd": 101.7,
+      "MAPE_pct": 6.3
+    },
+    "Random Forest": {
+      "R2": 0.9278,
+      "MAE_usd": 94.06,
+      "RMSE_usd": 141.62,
+      "MAPE_pct": 9.66
+    },
+    "Gradient Boosting": {
+      "R2": 0.9787,
+      "MAE_usd": 53.76,
+      "RMSE_usd": 77.01,
+      "MAPE_pct": 5.44
+    }
+  },
+  "feature_importance_pct": {
+    "release_year": 21.66,
+    "gpu": 16.94,
+    "cpu": 12.24,
+    "condition": 10.27,
+    "ram_gb": 8.8,
+    "os": 7.77,
+    "resolution": 6.43,
+    "brand": 4.83,
+    "storage_gb": 3.19,
+    "panel_type": 2.43,
+    "refresh_hz": 1.59,
+    "build_material": 1.16,
+    "screen_inch": 0.71,
+    "touchscreen": 0.49,
+    "warranty_years": 0.42,
+    "weight_kg": 0.33,
+    "battery_wh": 0.26,
+    "wifi": 0.15,
+    "fingerprint_reader": 0.13,
+    "usb_ports": 0.1,
+    "backlit_keyboard": 0.04,
+    "storage_type": 0.04
+  }
+}
